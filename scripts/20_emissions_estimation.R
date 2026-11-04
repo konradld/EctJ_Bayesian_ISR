@@ -6,8 +6,8 @@ rm(list = ls())
 
 #===============================================================================
 #           Which Figure to replicate (see paper for numbering)
-              FIGURE <- "S7" # 4 for figure in main test, S7 for appendix
-              DATE <- "2026-10-02"
+              FIGURE <- "4" # 4 for figure in main test, S7 for appendix
+              DATE <- "2026-07-21"
 #===============================================================================
 
 

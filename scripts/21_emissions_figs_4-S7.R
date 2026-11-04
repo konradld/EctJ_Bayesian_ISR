@@ -6,8 +6,8 @@ rm(list = ls())
 
 #===============================================================================
 #           Which Figure to replicate (see paper for numbering)
-                      FIGURE <- "S7" # 4 for figure in main test, S7 for appendix
-                      DATE <- "2026-10-02"
+                      FIGURE <- "4" # 4 for figure in main test, S7 for appendix
+                      DATE <- "2026-07-21"
 #===============================================================================
 
                       
@@ -150,7 +150,7 @@ COLORS <- list(
 )
 
 
-pdf(sprintf("./output/emissions/figure_%s_dnorm.pdf", 
+pdf(sprintf("./output/emissions/figure_%s.pdf", 
             FIGURE),
     width = 20, height = 7, onefile = TRUE)
 
